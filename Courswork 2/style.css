@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;}
+  /*this tells the marin and padding for all the pages*/
+h1{
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background-color: #ffb3b3;
+  text-align: center;
+}
+/*This telles the font and colour and aligment of the text*/
+footer{
+  color: white;
+  background-color: #9932CC;
+}
+  /*this is the colour of text and background of the footer*/
+ul{
+  padding: 0;
+  margin: 0 0 0 250px;
+  list-style: none;}
+    /*this is the positioning of the manu*/
+nav{
+  width: 100%;
+  overflow:auto;
+  background: #D8BFD8;}
+    /*this is the sizing and colour of the manu*/
+li{
+  float: left;}
+    /*this tells the manu text incons the position*/
+li a{
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: arial;
+  color: #4B0082;
+  text-align:center;}
+    /*this tells the manu text the colour, aligment and the positioning*/
+li a:hover{
+  background: #DDA0DD;
+  text-transform: uppercase;
+}
+  /*this tell the text icons to in large when hovvering above them to become uppercase*/
+.logo img{
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 20px;}
+  /*this tells the position and size of the logo*/
+* {
+  box-sizing: border-box;
+}
+  /*thsi tells the image the fix*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/*this tells the dic columnthe size and float*/
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  /*this tells the div row the positi of the fix on the page*/
+h2{
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background-color: #ffb3b3;
+  text-align: center;
+}
+/*This telles the font and colour and aligment of the text*/
+h3{
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background-color: #D8BFD8;
+  text-align: center;
+}
+/*This telles the font and colour and aligment of the text*/
+h4{
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background-color: #ffb3b3;
+  text-align: center;
+}
+/*This telles the font and colour and aligment of the text*/
+h5{
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background-color: #ffb3b3;
+  text-align: center;
+}
+/*This telles the font and colour and aligment of the text*/
+h6{
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background-color:  #D8BFD8;
+  text-align: center;}
+    /*This telles the font and colour and aligment of the text*/
+.container{
+  display: flex;
+  align-items: center;}
+  /*this positions the div container*/
+.text5{
+  background-color: #FAF0E6; color:#B0C4DE;
+  display: inline;}
+/* This is the colour and display for the text and display for my second page*/
+video{
+border:1px solid #B0C4DE;
+align-items: center;}
+/*This is to colour for the borderof the vedio and poster */
+.box{
+  display: flex;
+  align-items: center;}
+}
